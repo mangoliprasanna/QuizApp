@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="main_editText_hint">Enter Your Name </string>
+    <string name="main_btn_text">Start</string>
+    <string name="quiz_submit">Submit</string>
+    <string name="result_btn">Restart</string>
+
+
+    <string name="question_1">Q 1 - On which thread services work in android?</string>
+    <string name="question1_option_1">Worker Thread.</string>
+    <string name="question1_option_2">Own Thread.</string>
+    <string name="question1_option_3">Main Thread.</string>
+    <string name="question1_option_4">None of the above.</string>
+
+    <string name="question_2">Q 2 -What are the functionalities of Binder services in android?</string>
+    <string name="question2_option_1">Binder is responsible to manage the thread while using aidl in android</string>
+    <string name="question2_option_2">Binder is responsible for marshalling and un-marshalling of the data</string>
+    <string name="question2_option_3">A and B</string>
+    <string name="question2_option_4">Binder is a kind of interface</string>
+
+    <string name="question_3">Q 3 - How to access the context in android content provider?</string>
+    <string name="question3_option_1">Using getContext() in onCreate()</string>
+    <string name="question3_option_2">Using intent()</string>
+    <string name="question3_option_3">Using getApplicationContext() at anywhere in an application</string>
+    <string name="question3_option_4">A and C</string>
+
+    <string name="question_4">Q 4 -What is the application class in android?</string>
+    <string name="question4_option_1">A class that can create only an object</string>
+    <string name="question4_option_2">Anonymous class</string>
+    <string name="question4_option_3">Java class</string>
+    <string name="question4_option_4">Base class for all classes</string>
+
+
+    <string name="question_5">Q 5 - What is fragment in android?</string>
+    <string name="question5_option_1">JSON</string>
+    <string name="question5_option_2">Peace of Activity</string>
+    <string name="question5_option_3">Layout</string>
+    <string name="question5_option_4">None of the above</string>
+
+
+</resources>

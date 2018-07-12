@@ -21,7 +21,7 @@ public class ResultActivity extends AppCompatActivity {
 
         TextView correct = (TextView) findViewById(R.id.correct);
         TextView wrong = (TextView) findViewById(R.id.wrong);
-        correct.setText((4 - i) + " Wrong");
+        wrong.setText((5 - i) + " Wrong");
         correct.setText(i + " Correct");
     }
 

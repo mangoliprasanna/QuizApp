@@ -77,28 +77,18 @@
             android:textSize = "@dimen/question_text"
             android:layout_height="wrap_content" />
 
-        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:id="@+id/answer_3"
+        <CheckBox android:id="@+id/checkbox3_btn_1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <RadioButton android:id="@+id/radio3_btn_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question3_option_1" />
-            <RadioButton android:id="@+id/radio3_btn_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question3_option_2" />
-            <RadioButton android:id="@+id/radio3_btn_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question3_option_3" />
-            <RadioButton android:id="@+id/radio3_btn_4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question3_option_4" />
-        </RadioGroup>
+            android:text="@string/question3_option_1" />
+        <CheckBox android:id="@+id/checkbox3_btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question3_option_2" />
+        <CheckBox android:id="@+id/checkbox3_btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question3_option_3" />
 
         <TextView
             android:text = "@string/question_4"
@@ -135,28 +125,31 @@
             android:textSize = "@dimen/question_text"
             android:layout_height="wrap_content" />
 
-        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:id="@+id/answer_5"
+        <TextView android:id="@+id/text5_1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <RadioButton android:id="@+id/radio5_btn_1"
-                android:layout_width="wrap_content"
+            android:text="@string/question5_option_1" />
+        <TextView android:id="@+id/text5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question5_option_2" />
+        <TextView android:id="@+id/text5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question5_option_3" />
+
+        <android.support.design.widget.TextInputLayout
+            android:hint="@string/editText_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/question5_answer"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/question5_option_1" />
-            <RadioButton android:id="@+id/radio5_btn_2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question5_option_2" />
-            <RadioButton android:id="@+id/radio5_btn_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question5_option_3" />
-            <RadioButton android:id="@+id/radio5_btn_4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/question5_option_4" />
-        </RadioGroup>
+                android:hint="@string/editText_hint"/>
+
+        </android.support.design.widget.TextInputLayout>
 
         <Button
             android:text="@string/quiz_submit"

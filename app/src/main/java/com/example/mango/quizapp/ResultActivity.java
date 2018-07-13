@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ResultActivity extends AppCompatActivity {
 
@@ -23,6 +24,7 @@ public class ResultActivity extends AppCompatActivity {
         TextView wrong = (TextView) findViewById(R.id.wrong);
         wrong.setText((5 - i) + " Wrong");
         correct.setText(i + " Correct");
+        Toast.makeText(this, getString(R.string.congratulationText) + "With " + i + " Correct questions." , Toast.LENGTH_LONG).show();
     }
 
     public void restart(View view)

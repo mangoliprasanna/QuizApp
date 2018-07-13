@@ -4,6 +4,8 @@
     <string name="main_btn_text">Start</string>
     <string name="quiz_submit">Submit</string>
     <string name="result_btn">Restart</string>
+    <string name="editText_hint">Enter Your answer</string>
+    <string name="congratulationText">You completed the quiz </string>
 
 
     <string name="question_1">Q 1 - On which thread services work in android?</string>
@@ -32,10 +34,10 @@
 
 
     <string name="question_5">Q 5 - What is fragment in android?</string>
-    <string name="question5_option_1">JSON</string>
-    <string name="question5_option_2">Peace of Activity</string>
-    <string name="question5_option_3">Layout</string>
-    <string name="question5_option_4">None of the above</string>
+    <string name="question5_option_1">A. JSON</string>
+    <string name="question5_option_2">B. Peace of Activity</string>
+    <string name="question5_option_2_back">peace of activity</string>
+    <string name="question5_option_3">C. Layout</string>
 
 
 </resources>
